@@ -1,0 +1,27 @@
+{
+  "name": "parentpilot-backend",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "npm run build && node --test dist/tests/**/*.test.js",
+    "dev": "tsx watch src/server.ts",
+    "start": "node dist/src/server.js"
+  },
+  "dependencies": {
+    "@fastify/multipart": "^10.1.1",
+    "fastify": "^5.12.3",
+    "pdfjs-dist": "^5.4.296"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.4",
+    "pdf-lib": "^1.17.1",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.2"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

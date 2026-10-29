@@ -1,0 +1,20 @@
+.DS_Store
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Node dependencies and generated output
+node_modules/
+dist/
+coverage/
+*.log
+
+# Xcode generated files and per-user settings
+build/
+DerivedData/
+xcuserdata/
+*.xcuserstate
+*.xccheckout
+*.xcscmblueprint
