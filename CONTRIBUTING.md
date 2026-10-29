@@ -2,7 +2,7 @@
 
 ## Current boundary
 
-This phase establishes documentation only. Do not add product features, placeholder screens, dependencies, or backend infrastructure without an approved scope change. Preserve Xcode signing and bundle identifiers.
+The current implementation is a local PDF upload and extraction-review vertical slice (ADR-012 through ADR-020). Keep new work within the agreed task scope; authentication, durable storage, calendar UI, notifications, and production infrastructure remain separate work. Preserve Xcode signing and bundle identifiers.
 
 ## Working agreements
 
